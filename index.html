@@ -1,0 +1,69 @@
+<!-- 
+  Assignment 5
+  By: Nenad Ostojic
+  Class: WEB222NFF
+  Date of submittal: 8/07/2020
+
+  All product pictures were free to use and the social media icons were provided by the respective sites.
+
+  All coding is exclusively my own work.
+-->
+
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Suzie's Bakery</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Lobster&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div id="pageContent">
+    <header>
+      <h1 id="siteTitle">S U Z I E ' S&nbsp;&nbsp;&nbsp;B A K E R Y</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#" id="allProducts">All Products</a></li>
+        <li><a href="#" id="cookies">Cookies</a></li>
+        <li><a href="#" id="cakes">Cakes</a></li>
+        <li><a href="#" id="pies">Pies</a></li>
+        <li><a href="#" id="biscuits">Biscuits</a></li>
+        <li><a href="#" id="bread">Bread</a></li>
+        <li><a href="#" id="contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="pageHeader"><h2 id="pageTitle"></h2></div>
+    <div id="products"></div>
+    <div class="outerBox" id="outerBoxId">
+      <form action="https://httpbin.org/post" method="POST" name="contactForm">
+        <div id="boxRow1">
+          <div id="row1Box1"></div>
+          <div id="row1Box2"></div>
+        </div>
+        <div id="boxRow2"></div>
+        <div id="boxRow3"></div>
+      </form>
+    </div>
+    <footer>
+      <div class="footerBox">
+        <div class="footerName">&copy; 2020 Suzie's Bakery</div>
+        <div class="subscribeBox">
+          <form name="subscribeForm" method="POST" action="https://formspree.io/xqkyjwpo">
+            <input type="email" name="subscribeEmail" required placeholder="Enter your email to get updates"/>
+            <input type="submit" name="subscribeSubmit" value="Subscribe"/>
+          </form>
+        </div>
+        <div class="socialMediaIcons">
+          <div>
+            <a href="http://www.facebook.com"><img src="img/facebook.png"></a>
+            <a href="http://www.twitter.com"><img src="img/twitter.png"></a>
+            <a href="http://www.instagram.com"><img src="img/instagram.png"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    </div>
+  </body>
+</html>

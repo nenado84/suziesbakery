@@ -1,0 +1,293 @@
+body {
+    background-color: #393232;
+}
+
+#pageContent {
+    max-width: 900px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    height: 200px;
+    background-image: url("../img/headerimg.jpg");
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #8d6262;
+}
+
+nav ul li {
+    float: left;
+    font-family: 'Lobster', cursive;
+    font-size: 1.2em;
+}
+
+nav li a, nav li a:visited {
+    display: flex;
+    padding: 8px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.3em;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    box-shadow: 2px 2px 5px 1px #393232;
+    color: white;
+}
+
+#siteTitle {
+    font-family: 'Arvo', serif;
+    padding-top: 60px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px 2px black;
+}
+
+#pageHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4d4545;
+}
+
+#pageTitle {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Arvo', serif;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.2em;
+}
+
+#products {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #4d4545;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.productBox {
+    width: 260px;
+    padding: 10px;
+    border: 2px dashed #8d6262;
+    margin-bottom: 10px;
+}
+
+.productBox h3 {
+    font-style: 1em;
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.productBox p {
+    color: whitesmoke;
+    font-family: 'Arvo', serif;
+}
+
+.productBox img {
+    border: 1px solid white;
+}
+
+footer {
+    padding: 10px;
+    background-color: #8d6262;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+
+footer img {
+    padding-left: 15px;
+}
+
+p {
+    color: whitesmoke;
+    font-family: 'Arvo', serif;
+}
+
+.outerBox {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #4d4545;
+    flex-wrap: wrap;
+}
+
+#boxRow1 {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+#boxRow2 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+}
+
+#boxRow3 {
+    box-sizing: border-box;
+    display: flex;
+    justify-items: right;
+    width: 100%;
+    padding: 10px;
+}
+
+#row1Box1 {
+    box-sizing: border-box;
+    width:50%;
+    padding: 10px;
+}
+
+#row1Box2 {
+    box-sizing: border-box;
+    width:50%;
+    padding: 10px;
+}
+
+span {
+    width: 100%;
+    display: block;
+}
+
+.name {
+    max-width: 30%;
+    border-radius: 10px;
+}
+
+label {    
+    margin: 5px;
+    color: whitesmoke;
+    font-family: 'Arvo', serif;    
+}
+
+input {
+    background-color: whitesmoke;
+    font-family: 'Arvo', serif;
+    box-sizing: border-box;
+}
+
+input[type=text], input[type=email] {
+    box-sizing: border-box;
+    height: 2em;
+    width: 100%;
+    margin: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0px;
+    color: #8d6262;
+    padding: 5px;
+}
+
+input[id=orderNum] {
+    width: 50%;
+}
+
+input[type=radio] {
+    margin: 8px;
+}
+
+::placeholder {
+    color: #8d6262;
+    font-family: 'Arvo', serif;
+}
+
+:-ms-input-placeholder {
+    color: #8d6262;
+    font-family: 'Arvo', serif;
+}
+
+::-ms-input-placeholder { 
+    color: #8d6262;
+    font-family: 'Arvo', serif;
+}
+
+textarea {
+    height: 10em;
+    width: 80%;
+    margin: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0px;
+    color: #8d6262;
+}
+
+form {
+    width: 75%;
+}
+
+input[type=submit] {
+    background-color: #8d6262;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-family: 'Arvo', serif;
+    padding: 10px;
+    border: 0px;
+    margin: 10px;
+}
+
+.footerBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+}
+
+.footerName {
+    width: 25%;
+}
+
+.subscribeBox {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialMediaIcons {
+    width: 25%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+input[name=subscribeEmail] {
+    background-color: white;
+    width: 50%;
+    color: #8d6262;
+}
+
+input[name=subscribeSubmit] {
+    background-color: #4d4545;
+    color: whitesmoke;
+    display: inline;
+}
+
+form[name=subscribeForm] {
+    width: 100%;
+    text-align: center;
+}
+
+input[id=orderBox] {
+    width: 100%;
+}
